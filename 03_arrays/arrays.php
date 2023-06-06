@@ -66,3 +66,27 @@ $numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 $evens = array_filter($numbers, fn ($n) => $n % 2 === 0);
 $squares = array_map(fn ($n) => $n * $n, $numbers);
 $total = array_reduce($numbers, fn ($carry, $item) => $carry + $item);
+
+// associative array
+$person = [
+  'name' => 'bazoka-kaka',
+  'age' => 40,
+  'job' => ['frontend developer', 'backend developer']
+];
+
+// print the keys of the array
+echo '<pre>';
+var_dump(array_keys($person));
+echo '</pre>';
+
+// print the values of the array
+echo '<pre>';
+var_dump(array_values($person));
+echo '</pre>';
+
+// sorting by values, by keys
+ksort($person);
+asort($person);
+echo '<pre>';
+var_dump($person);
+echo '</pre>';
