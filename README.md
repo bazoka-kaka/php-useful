@@ -1,7 +1,5 @@
 # Useful PHP
 
-By: bazoka-kaka
-
 ## Prerequisites
 
 - HTML
