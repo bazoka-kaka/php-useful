@@ -103,3 +103,9 @@ let checkBox = {
 // we can just do it like this instead of using a long switch case
 element.render();
 ```
+
+## Class and instance
+
+- class is a blueprint which has associated variables (properties) and functions (methods)
+- class could also be considered a data type
+- the variable that is made out of a class is called instance

@@ -57,3 +57,4 @@ PHP Basics
 OOP
 
 - [Object-oriented Programming in 7 minutes | Mosh](https://www.youtube.com/watch?v=pTB0EiLXUC8)
+- [OOP PHP for Beginners](https://www.youtube.com/watch?v=JmDHHhxfe1w&list=PLLQuc_7jk__VDhXWi544iK-SgljlGGlrX)
