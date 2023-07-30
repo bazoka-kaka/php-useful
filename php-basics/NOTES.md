@@ -66,3 +66,48 @@
 - constraints:
   - max 4 kb
   - not best suited for sensitive informations (secure datas are for sessions)
+
+## Require and Include
+
+- we have 4 things:
+  1. require
+  2. require_once
+  3. include
+  4. include_once
+
+### Include vs require
+
+- include: if the file doesn't exist or contain some error, the rest of the code still works
+- require: if the file doesn't exist or contain some error, the program execution will be stopped
+
+### Include once
+
+- if the file is included already, it won't be included anymore given another include in the code
+  e.g:
+
+  ```
+  include_once [file1];
+  include [file1];
+  include_once [file1];
+  ```
+
+  note: the above code would only include \[file1\] once
+
+### Require once
+
+- the same with include once, just it's "require"
+  e.g:
+
+  ```
+  require [file1];
+  require [file1];
+  ```
+
+  note: the above code will return an error
+
+  ```
+  require_once [file1];
+  require_once [file1];
+  ```
+
+  note: the above code will not return an error
