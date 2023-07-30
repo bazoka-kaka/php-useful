@@ -38,3 +38,20 @@
 - Best suited for web development
 - Can be embedded in HTML
 - Intepreted language
+
+## Sessions & Cookies
+
+- makes it possible to store information about the user on the browser or server
+- both have similar purpose
+- you must start your session before any html codes
+
+### Difference
+
+- cookies store information on the browser
+- sessions store information on the server side
+
+### How it works?
+
+- when session is created and that information is stored on the server side, the session id will be stored in the cookie
+- based on the session id which is exchanged every request and response, the server can know who the browser is (that gives the possibility to associate the data saved to that particular user based on the session id)
+- in short: session id is the unique identifier (connection) between browser and server session
