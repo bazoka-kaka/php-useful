@@ -55,3 +55,14 @@
 - when session is created and that information is stored on the server side, the session id will be stored in the cookie
 - based on the session id which is exchanged every request and response, the server can know who the browser is (that gives the possibility to associate the data saved to that particular user based on the session id)
 - in short: session id is the unique identifier (connection) between browser and server session
+
+### Cookies
+
+- a piece of data stored in user browser
+- mainly used for 3 purposes:
+  1. session management
+  2. personalization
+  3. tracking
+- constraints:
+  - max 4 kb
+  - not best suited for sensitive informations (secure datas are for sessions)
