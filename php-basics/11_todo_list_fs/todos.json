@@ -1,0 +1,11 @@
+{
+    "Learn Japanese": {
+        "completed": true
+    },
+    "Learn English": {
+        "completed": false
+    },
+    "Learn Programming": {
+        "completed": true
+    }
+}
