@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px 500px;
+  font-size: 0.9rem;
+}
+
+input[type="text"],
+textarea {
+  padding: 6px 12px;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* classes */
+.note-form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+}
+
+.notes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.note {
+  position: relative;
+  background-color: #fedd00;
+  padding: 12px;
+}
+
+.note a {
+  color: black;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.note p {
+  margin-bottom: 20px;
+}
+
+.note small {
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+
+.note button {
+  background-color: transparent;
+  border: 0;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
+}
