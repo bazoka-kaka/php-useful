@@ -39,6 +39,36 @@
 - Can be embedded in HTML
 - Intepreted language
 
+## Why learn PHP?
+
+- multi purpose:
+  - simple websites
+  - complex websites
+  - CRM portals
+  - ecommerce systems
+  - REST APIs
+  - image/video/audio processing
+  - works with almost all databases
+- easy to learn
+- easy to setup
+- large community
+- PHP CMSs
+  - wordpress - the most popular CMS
+  - magento - ecommerce
+  - drupal - CMS + Ecommerce
+  - opencart - ecommerce
+- PHP Frameworks:
+  - laravel
+  - symfony
+  - codeigniter
+  - Yii2
+- High demand on market
+
+## PHP is not best for
+
+- building real time applications -- nodejs
+- AI and ML -- python
+
 ## Sessions & Cookies
 
 - makes it possible to store information about the user on the browser or server
