@@ -2,11 +2,20 @@
 
 $connection = require_once __DIR__ . '/Connection.php';
 
-$id = $_POST['id'] ?? '';
+$id = post_data('id');
+$title = post_data('title');
+$description = post_data('description');
+
 if ($id) {
-  $connection->updateNote($id, $_POST);
+  $connection->updateNote($id, $title, $description);
 } else {
-  $connection->addNote($_POST);
+  $connection->createNote($title, $description);
 }
 
 header("Location: index.php");
+
+function post_data($field)
+{
+  $_POST[$field] = $_POST[$field] ? $_POST[$field] : "";
+  return stripslashes(htmlspecialchars($_POST[$field]));
+}

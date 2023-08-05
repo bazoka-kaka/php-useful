@@ -2,5 +2,7 @@
 
 $connection = require_once __DIR__ . '/Connection.php';
 
-$connection->removeNote($_POST['id']);
+$id = stripslashes(htmlspecialchars($_GET['id']));
+$connection->deleteNote($id);
+
 header("Location: index.php");
